@@ -1,3 +1,7 @@
 pandas
 matplotlib
 seaborn
+scorecardpy
+Scikit-learn
+
+
