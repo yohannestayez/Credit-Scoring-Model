@@ -20,6 +20,7 @@ This notebook performs Exploratory Data Analysis (EDA) on the cleaned dataset. T
 - **Correlation Analysis**: Understanding relationships between numerical features.
 - **Outlier Detection**: Using box plots to identify potential outliers.
 
+
 ### 3. `Feature_Engineering.ipynb`
 This notebook focuses on feature engineering to enhance the dataset for modeling. Key tasks include:
 - **Aggregate Features**: Creating new features such as total transaction amount, average transaction amount, transaction count, and standard deviation of transaction amounts for each customer.
@@ -27,6 +28,7 @@ This notebook focuses on feature engineering to enhance the dataset for modeling
 - **Encoding Categorical Variables**: Applying Weight of Evidence (WOE) transformation to categorical features for better model interpretability.
 - **Handling Missing Values**: Implementing strategies for filling or removing missing values in the dataset.
 - **Normalization/Standardization**: Scaling numerical features to ensure they are on a similar scale, improving model performance.
+
 
 ## Requirements
 To run the notebooks, you will need:
@@ -38,11 +40,13 @@ To run the notebooks, you will need:
 - Scikit-learn
 - Scorecardpy
 
+
 ## Getting Started
 1. Clone the repository or download the project files.
 2. Install the required packages listed in `requirements.txt`.
 3. Open the notebooks in Jupyter Notebook or any compatible IDE.
 4. Execute the cells in the order provided to complete the data cleaning, EDA, and feature engineering processes.
+
 
 ## Conclusion
 The outputs from the EDA and feature engineering notebooks will be utilized in subsequent modeling tasks to develop a robust credit scoring model. Your contributions and feedback are welcome!
