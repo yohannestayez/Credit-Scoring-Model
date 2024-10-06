@@ -28,7 +28,12 @@ This notebook focuses on feature engineering to enhance the dataset for modeling
 - **Encoding Categorical Variables**: Applying Weight of Evidence (WOE) transformation to categorical features for better model interpretability.
 - **Handling Missing Values**: Implementing strategies for filling or removing missing values in the dataset.
 - **Normalization/Standardization**: Scaling numerical features to ensure they are on a similar scale, improving model performance.
-
+### 4. `Default_Estimator_and_WOE_Binning.ipynb`
+This notebook focuses on feature engineering using the RFMS (Recency, Frequency, Monetary, Seniority) formalism and applying Weight of Evidence (WoE) binning for customer risk classification. The main steps include:
+ - **RFMS Feature Engineering**: Calculating Recency, Frequency, Monetary, and Seniority features from the transaction data.
+ - **Risk Label Assignment**: Classifying customers as 'good' or 'bad' based on their RFMS score.
+ - **WoE Binning**: Transforming RFMS features using WoE based on the RiskLabel.
+ - **Information Value (IV) Calculation**: Evaluating the importance of each RFMS feature using IV to assess predictive power.
 
 ## Requirements
 To run the notebooks, you will need:
@@ -49,7 +54,7 @@ To run the notebooks, you will need:
 
 
 ## Conclusion
-The outputs from the EDA and feature engineering notebooks will be utilized in subsequent modeling tasks to develop a robust credit scoring model. Your contributions and feedback are welcome!
+The outputs from the EDA, feature engineering and WOE binning notebooks will be utilized in subsequent modeling tasks to develop a robust credit scoring model. Your contributions and feedback are welcome!
 
 ---
 
