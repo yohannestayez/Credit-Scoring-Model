@@ -34,7 +34,15 @@ This notebook focuses on feature engineering using the RFMS (Recency, Frequency,
  - **Risk Label Assignment**: Classifying customers as 'good' or 'bad' based on their RFMS score.
  - **WoE Binning**: Transforming RFMS features using WoE based on the RiskLabel.
  - **Information Value (IV) Calculation**: Evaluating the importance of each RFMS feature using IV to assess predictive power.
-
+### 5. `Model_Building.ipynb`
+This notebook trains the machine learning models:
+ - **Model Selection**: Random Forest and Gradient Boosting Machines.
+ - **Data Splitting**: Dividing data into training and testing sets.
+ - **Model Training**: Fitting the models to training data.
+ - **Hyperparameter Tuning**: Optimizing models using Grid and Random Search.
+ - **Overfitting Prevention**: Using cross-validation and regularization techniques.
+ - **Model Evaluation**: Assessing metrics like Accuracy, Precision, Recall, F1 Score, and ROC-AUC.
+ - **Ensemble models**: Voting Classifier that combines both Random Forest and Gradient Boosting for making an efficient credit scoring model
 ## Requirements
 To run the notebooks, you will need:
 - Python 3.x
@@ -44,6 +52,7 @@ To run the notebooks, you will need:
 - Seaborn
 - Scikit-learn
 - Scorecardpy
+- Pickle
 
 
 ## Getting Started
