@@ -10,7 +10,7 @@ app = FastAPI()
 with open("C:/Users/Administrator/Documents/kifiya/Week_6/final_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
-# Input schema for prediction (this depends on the model's input)
+# Input schema for prediction 
 class PredictionInput(BaseModel):
     Recency: float
     Frequency: float
