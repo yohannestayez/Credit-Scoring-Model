@@ -34,7 +34,7 @@ This notebook focuses on feature engineering using the RFMS (Recency, Frequency,
  - **Risk Label Assignment**: Classifying customers as 'good' or 'bad' based on their RFMS score.
  - **WoE Binning**: Transforming RFMS features using WoE based on the RiskLabel.
  - **Information Value (IV) Calculation**: Evaluating the importance of each RFMS feature using IV to assess predictive power.
-### 5. `Model_Building.ipynb`
+### 5. `Modelling.ipynb`
 This notebook trains the machine learning models:
  - **Model Selection**: Random Forest and Gradient Boosting Machines.
  - **Data Splitting**: Dividing data into training and testing sets.
