@@ -43,6 +43,68 @@ This notebook trains the machine learning models:
  - **Overfitting Prevention**: Using cross-validation and regularization techniques.
  - **Model Evaluation**: Assessing metrics like Accuracy, Precision, Recall, F1 Score, and ROC-AUC.
  - **Ensemble models**: Voting Classifier that combines both Random Forest and Gradient Boosting for making an efficient credit scoring model
+ 
+## Installation
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yohannestayez/Credit-Scoring-Model.git
+   ```
+
+2. **Navigate into the project directory**:
+   ## Project Structure
+
+The repository is structured as follows:
+
+```
+├── .vscode/
+│   └── settings.json
+├── .github/
+│   └── workflows/
+│       └── unittests.yml
+├──app
+│   ├── main.py
+│   └── requirements.txt
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── src/
+│   └── __init__.py
+├── notebooks/
+│   ├── __init__.py
+│   ├── EDA.ipynb
+│   ├── data_cleaning.ipynb
+│   ├── Feature_Engineering.ipynb
+│   ├── Modelling.ipynb
+│   └── Default_Estimator_and_WOE_Binning.ipynb
+├── tests/
+│   └── __init__.py
+├── scripts/
+│    ├── __init__.py
+├── Dockerfile
+├──.dockerignore
+
+
+```
+
+3. **Set up a virtual environment**
+4. **Install the required dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. **Run the project**
+
+
+6. **Create Docker container**
+
+```bash
+docker build -t app-name .
+
+docker run -p 80:80 app-name
+```
+
+
 ## Requirements
 To run the notebooks, you will need:
 - Python 3.x
@@ -54,16 +116,8 @@ To run the notebooks, you will need:
 - Scorecardpy
 - Pickle
 
-
-## Getting Started
-1. Clone the repository or download the project files.
-2. Install the required packages listed in `requirements.txt`.
-3. Open the notebooks in Jupyter Notebook or any compatible IDE.
-4. Execute the cells in the order provided to complete the data cleaning, EDA, and feature engineering processes.
-
-
 ## Conclusion
-The outputs from the EDA, feature engineering and WOE binning notebooks will be utilized in subsequent modeling tasks to develop a robust credit scoring model. Your contributions and feedback are welcome!
+The outputs from the EDA, feature engineering and WOE binning notebooks will be utilized in subsequent modeling tasks to the developed robust credit scoring model. Your contributions and feedback are welcome!
 
 ---
 
